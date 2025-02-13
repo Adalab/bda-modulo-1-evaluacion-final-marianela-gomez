@@ -1,8 +1,8 @@
 # Table of contents
 
-- [Spanish version](##ejercicio-evaluación-módulo-1-data-analytics-adalab)
+- [Spanish version](#ejercicio-evaluación-módulo-1-bootcamp-data-analytics-adalab)
 
-- [English version](##final-exercise-module-1-data-analytics-adalab)
+- [English version](#final-exercise-module-1-adalab-data-analytics-bootcamp)
 
 ## Ejercicio evaluación Módulo 1 Bootcamp Data Analytics Adalab
 
