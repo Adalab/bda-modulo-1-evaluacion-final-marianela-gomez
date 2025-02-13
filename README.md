@@ -113,9 +113,9 @@ The exercise consists of creating the TiendaOnline class with the following stru
 
     Calculates the sum of products in inventory as:
 
-    $$
+    $
     \sum Inventory_{total} = price*quantity
-    $$
+    $
 
     A part of the bonus exercise is also included. For this part, the child class TiendaOnline_2 is created:
 
@@ -127,14 +127,14 @@ The exercise consists of creating the TiendaOnline class with the following stru
 
 **Methods**:
 
-- agregar_cliente(self, nombre, email):
+-` agregar_cliente(self, nombre, email)`:
 
     Adds a customer to the clientes dictionary, including their name and email.
 
-- ver_clientes(self):
+- `ver_clientes(self)`:
 
     Displays the list of registered customers with their names and email addresses.
 
-- realizar_compra(self):
+- `realizar_compra(self)`:
 
     Allows to make a purchase by selecting products from the inventory. It should interact with the customer to select products and calculate the total purchase cost.
