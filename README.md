@@ -89,7 +89,7 @@ The exercise consists of creating the TiendaOnline class with the following stru
 
 - `calcular_valor_inventario()`
 
-    Calculates the sum of a product in inventory as:
+    Calculates the sum of products in inventory as:
 
     $$
     \sum Inventory_{total} = price*quantity
