@@ -6,7 +6,7 @@
 
 ## Ejercicio evaluación Módulo 1 Bootcamp Data Analytics Adalab
 
-Este repo contiene el ejercicio de evaluación del Módulo 1 (Python Básico) del Bootcamp de Data Analytics de Adalab. También incluye un archivo borrador (draft), dónde se recogen algunas pruebas hechas durante el desarrollo del código. 
+Este repositorio contiene el ejercicio de evaluación del Módulo 1 (Python Básico) del Bootcamp de Data Analytics de Adalab. También incluye un archivo borrador (draft), dónde se recogen algunas pruebas hechas durante el desarrollo del código. 
 
 El ejercicio consiste en crear la clase TiendaOnline y tiene la siguiente estructura: 
 
@@ -48,6 +48,28 @@ El ejercicio consiste en crear la clase TiendaOnline y tiene la siguiente estruc
     $$
     \sum Valor_{total} = precio*cantidad 
     $$
+
+También se incluye una parte del ejerccio *bonus*. Para esta parte, se crea la clase hija TiendaOnline_2: 
+
+**Clase**: TiendaOnline_2(TiendaOnline)
+
+**Atributos**:
+- clientes: Un atributo para llevar un registro de los clientes de la tienda en forma de diccionario de diccionarios.
+
+**Métodos**:
+
+- `agregar_cliente(self, nombre, email)`: 
+
+    Agrega un cliente al diccionario de clientes con su nombre y correo electrónico
+
+- `ver_clientes(self)`
+
+    Muestra la lista de clientes registrados con sus nombres y correos electrónicos
+
+- `realizar_compra(self)`:
+
+     Permite a un cliente realizar una compra seleccionando productos del inventario. Debe interactuar con el cliente para seleccionar productos y calcular el costo total de la compra.
+
     
 ## Final exercise Module 1 Adalab Data Analytics Bootcamp 
 
@@ -94,3 +116,25 @@ The exercise consists of creating the TiendaOnline class with the following stru
     $$
     \sum Inventory_{total} = price*quantity
     $$
+
+    A part of the bonus exercise is also included. For this part, the child class TiendaOnline_2 is created:
+
+**Class**: TiendaOnline_2(TiendaOnline)
+
+**Attributes**:
+
+- clientes: An attribute to keep track of store customers in the form of a dictionary of dictionaries.
+
+**Methods**:
+
+- agregar_cliente(self, nombre, email):
+
+    Adds a customer to the clientes dictionary, including their name and email.
+
+- ver_clientes(self):
+
+    Displays the list of registered customers with their names and email addresses.
+
+- realizar_compra(self):
+
+    Allows to make a purchase by selecting products from the inventory. It should interact with the customer to select products and calculate the total purchase cost.
